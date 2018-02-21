@@ -1,8 +1,5 @@
 #!/usr/bin/env ruby
 
-# alphagov_ida_repos
-# Find the repos that have Identity Assurance as the only team
-
 require 'octokit'
 
 client = Octokit::Client.new(netrc: true, per_page:100)
